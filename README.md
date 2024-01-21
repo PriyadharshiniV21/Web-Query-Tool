@@ -1,1 +1,7 @@
-# Web-Query-Tool
+# Web-Query-Tool-using-LangChain
+
+The Web Query Tool is a dynamic project employing Python, Google PaLM, LangChain, and Streamlit to address the challenge of responding to user queries about any given website. Leveraging LangChain, this tool fetches content from provided URLs and employs methods like UnstructuredURLLoader and RecursiveCharacterTextSplitter to process and segment the text into manageable chunks. Google Palm Embeddings then converts this text into vectors, stored in a FAISS vector store for subsequent analysis.
+
+The tool's Streamlit-based interface, powered by Google Palm as a Large Language Model (LLM), utilizes the LangChain RetrievalQA method for retrieving answers from the vector database generated. Users can input up to three website URLs and ask queries related to the provided websites. The tool, in turn, responds with relevant information extracted from the LangChain vector database.
+
+This project serves as a robust evaluation of the seamless integration of LangChain and Google Palm technologies, showcasing the effective implementation of a functional tool that facilitates effortless information retrieval from diverse websites. The WebQuery Response Tool exemplifies the power of Python and cutting-edge technologies to provide users with accurate and timely responses to their inquiries, marking a significant advancement in web query processing and information retrieval.
